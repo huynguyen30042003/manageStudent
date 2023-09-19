@@ -29,7 +29,7 @@ public class StudentManage extends Menu<String> {
             case 1:
                 System.out.println(options[n - 1]);
                 while (true) {
-                    if (dataStudent.size() < 2) {
+                    if (dataStudent.size() < 10) {
                         StudentInfomation studentInfomation = new StudentInfomation();
                         System.out.println("student " + (dataStudent.size() + 1) + "th");
                         studentInfomation.input(dataStudent);
